@@ -8,7 +8,7 @@ This repo contains a small Arduino project where a buzzer changes its buzzing sp
 * Converts the reading into a delay value
 * The buzzer on **pin 8** buzzes faster in bright light and slower in low light
 
-It’s a beginner-friendly project but gives a good idea of how sensors interact with hardware.
+It’s a beginner-friendly project but gives a good idea of how sensors interact with hardware (IMO).
 
 ## Components Used
 
@@ -24,10 +24,7 @@ It’s a beginner-friendly project but gives a good idea of how sensors interact
 2. Output goes to analog pin A0
 3. Arduino reads the value and adjusts buzzer delay
 
-## Code (Improved)
-
-I cleaned it up a bit while keeping your logic the same.
-Used `map()` and `constrain()` to make the timing more stable.
+## Code
 
 ```cpp
 int lightpin = A0;
